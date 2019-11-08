@@ -1,0 +1,7 @@
+#Tensione [mV], intervallo di tempo (circa), conteggi
+1450	10	44
+1500	10	46
+1550	10	50
+1600	10	45
+1650	10	44
+1700	10	50

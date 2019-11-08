@@ -2,15 +2,15 @@ import numpy
 import pylab
 
 #LOAD DATA
-V1, Delta_t1, N1 = numpy.loadtxt('C:\\Users\\gabri\\Desktop\\DatiLabIntFond\\Preliminare\\PlateauPMT1.txt', unpack = True)
+V1, Delta_t1, N1 = numpy.loadtxt('PlateauPMT1.txt', unpack = True)
 dN1 = numpy.sqrt(N1)
 dV1 = 0.007*V1
 
-V2, Delta_t2, N2 = numpy.loadtxt('C:\\Users\\gabri\\Desktop\\DatiLabIntFond\\Preliminare\\PlateauPMT2.txt', unpack = True)
+V2, Delta_t2, N2 = numpy.loadtxt('PlateauPMT2.txt', unpack = True)
 dN2 = numpy.sqrt(N2)
 dV2 = 0.007*V2
 
-V3, Delta_t3, N3 = numpy.loadtxt('C:\\Users\\gabri\\Desktop\\DatiLabIntFond\\Preliminare\\PlateauPMT3.txt', unpack = True)
+V3, Delta_t3, N3 = numpy.loadtxt('PlateauPMT3.txt', unpack = True)
 dN3 = numpy.sqrt(N3)
 dV3 = 0.007*V3
 
