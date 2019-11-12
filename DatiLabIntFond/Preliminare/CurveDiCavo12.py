@@ -3,7 +3,7 @@ import pylab
 
 #LOAD DATA
 Rit, Delta_t, N = numpy.loadtxt('CurveDiCavo12.txt', unpack = True)
-dN = numpy.sqrt(2*N)
+dN = numpy.sqrt(N)
 
 #Grafico
 
